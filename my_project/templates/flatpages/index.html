@@ -1,0 +1,16 @@
+{% extends 'flatpages/layout.html' %}
+
+{% load static %}
+
+{% block title %}Главная{% endblock title %}
+
+{%block content%}
+
+<div class="card text-bg-dark">
+    <img src="{% static 'media/img.jpg' %}"  width="100%"  alt="lorem">
+    <div class="card-img-overlay d-flex flex-column align-items-end ">
+        {{ flatpage.content }}
+    </div>
+  </div>
+
+{%endblock content%}

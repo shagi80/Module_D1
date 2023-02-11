@@ -1,0 +1,13 @@
+.my-font{
+  font-size: 2vw;
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  
+}
+
+.my-header{
+  font-size: 5vw;
+  text-transform: uppercase; 
+  font-weight: bold; 
+  margin-top: 20px;
+}

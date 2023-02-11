@@ -1,0 +1,29 @@
+{% extends 'flatpages/layout.html' %}
+
+{% load static %}
+
+{% block title %}
+    {{ flatpage.title }}
+{% endblock title %}
+
+
+{% block content %}
+
+<div class="d-flex flex-column align-items-center mt-3">
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="{% static 'media/img.jpg' %}" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">{{ flatpage.title}}</h5>
+                    {{ flatpage.content }}
+                    {{ flatpage.content }}     
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
