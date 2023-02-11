@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     # to plug flatpages
     'django.contrib.sites',
     'django.contrib.flatpages',
+    'fpages',
 ]
 
 MIDDLEWARE = [
